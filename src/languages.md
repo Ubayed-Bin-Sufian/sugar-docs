@@ -1,9 +1,8 @@
 # Sugar Labs Programming Languages
 
-At Sugar Labs we have opportunities for contributing with many
-different programming languages and libraries;
+At Sugar Labs, there are opportunities to contribute using various programming languages and libraries.
 
-## Python, PyGObject, GTK+, Pygame, GStreamer,
+## Python, PyGObject, GTK+, Pygame, GStreamer
 
 * Sugar,
 * Activities for Sugar,
@@ -50,6 +49,4 @@ different programming languages and libraries;
 
 ## Anything New
 
-* as long as it works, and you can demonstrate it works, and it
-  doesn't make something more complicated than it needs to be, it is
-  probably welcome.
+* as long as it works, is demonstrable, and does not add unnecessary complexity—is likely welcome.

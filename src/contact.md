@@ -1,15 +1,15 @@
 Contact
 =======
 
-Join us at Sugar-devel mailing list
+Join us on the Sugar-devel mailing list at
 <http://lists.sugarlabs.org/listinfo/sugar-devel>.
 
-We have a [Matrix channel][Matrix] where real time discussions mostly happen. 
+We have a [Matrix channel][Matrix] where real-time discussions mostly happen. 
 
 Some important channels are:
-* [#sugar:matrix.org][sugar_matrix]: General Sugar Labs discussion
-* [#sugar-systems:matrix.org][sugar_systems_matrix]: Questions and discussion about Sugar Labs Infrastructure.
-* [#music-blocks:matrix.org][music_blocks_matrix]: Share your projects and asks questions about Music Blocks (musicblocks.sugarlabs.org)
+* [#sugar:matrix.org][sugar_matrix]: General Sugar Labs discussion.
+* [#sugar-systems:matrix.org][sugar_systems_matrix]: Questions and discussions about Sugar Labs Infrastructure.
+* [#music-blocks:matrix.org][music_blocks_matrix]: Share your projects and ask questions about Music Blocks (musicblocks.sugarlabs.org).
 * [#musicblocksdev:matrix.org][music_blocks_dev_matrix]: Development for Music Blocks visual programming language.
 
 For Sugarizer specific discussions, join the [Discord server][sugarizer_discord].

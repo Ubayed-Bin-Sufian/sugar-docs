@@ -5,12 +5,12 @@ To be effective, the members of the Sugar Labs community must work
 together; our code of conduct lays down the "ground rules" for our
 cooperative efforts.
 
-The Sugar Labs community supports the educators and software
+The Sugar Labs community supports educators and software
 developers who use and develop the Sugar Learning Platform. Sugar is a
-place for children to explore, learn, teach, and reflect. Sugar Labs
-is a place where we all can explore, learn, teach, and reflect. The
+place for children to explore, learn, teach, and reflect, and Sugar Labs
+is a place where we all can do the same. The
 same underlying principles that make Sugar great—discovery,
-collaboration, and reflection—are central to the way the Sugar
+collaboration, and reflection—are central to how the Sugar
 community operates.
 
 We chose the name Sugar Labs, plural, because we are more than one
@@ -23,7 +23,7 @@ improvements on the same basis.
 
 That collaboration depends on good relationships between developers
 (and end-users). We have agreed upon the following Code of Conduct as
-a guide to our collaboration and cooperation.
+a guide for our collaboration and cooperation.
 
 This Code of Conduct covers your behavior as a member of the Sugar
 Labs community, in any forum, mailing list, wiki, web site, IRC
@@ -50,7 +50,7 @@ respect. Everyone can make a valuable contribution to Sugar. We may
 not always agree, but disagreement is no excuse for poor behavior and
 poor manners. We might all experience some frustration now and then,
 but we cannot allow that frustration to turn into a personal
-attack. It's important to remember that a community where people feel
+attack. It's important to remember that a community in which people feel
 uncomfortable or threatened is not a productive one. We expect members
 of the Sugar community to be respectful when dealing with other
 contributors as well as with people outside the Sugar project, and
@@ -64,8 +64,8 @@ together. Collaboration reduces redundancy of work done in the Free
 Software world, and improves the quality of the software produced. You
 should aim to collaborate with other Sugar contributors, as well as
 with the entire Sugar ecosystem that is interested in the work you
-do. Your work should be done transparently and patches from Sugar
-should be given back to the community when they are made, not just
+do. Your work should be done transparently, and patches from Sugar
+should be given back to the community when they are made, not only
 when the distribution releases. If you wish to work on new code for
 existing upstream projects, at least keep those projects informed of
 your ideas and progress. It may not be possible to get consensus from
@@ -92,15 +92,14 @@ When you disagree, consult others
 ---------------------------------
 
 The Sugar community is not immune to disagreements—both political and
-technical. We do not try to avoid disagreements or differing views,
-but we do try to resolve them constructively. Turn to the community
+technical. While we do not try to avoid disagreements or differing views, we do aim to resolve them constructively. Turn to the community
 and to community processes to seek advice and to mediate and resolve
 disagreements. Community resources include an Oversight Board which
 will help to decide the right course for Sugar Labs, project teams and
 team leaders who may be able to help you, and an ombudsman who will
 investigate complaints and, where possible, resolve them by making
 recommendations to the community. We welcome you to fork the Sugar
-code base if you are determined to go your own way; enabling the
+code base if you are determined to go your own way, enabling the
 community to test your ideas and possibly merge them back into the
 mainstream.
 

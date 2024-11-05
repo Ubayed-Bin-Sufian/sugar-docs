@@ -1,22 +1,22 @@
 Contributing
 ============
 
-We use the pull-request model, see [GitHub's help on pull-request](https://help.github.com/articles/using-pull-requests).
+We use the pull-request model. See [GitHub's help on pull-requests](https://help.github.com/articles/using-pull-requests).
 
 In brief, you will:
 
-* on GitHub, find and fork the source repository;
-* on your computer, clone your fork repository,
-* commit your changes in a new branch;
-* push your branch and submit a pull-request for it;
-* go through the review process until your pull-request is merged; and
+* On GitHub, find and fork the source repository.
+* On your computer, clone your forked repository.
+* Commit your changes in a new branch.
+* Push your branch and submit a pull request.
+* Go through the review process until your pull request is merged.
 
 Please note there is no need to ask permission to work on an
 issue. You should check for pull requests linked to an issue you are
 addressing; if there are none, then assume nobody has done
 anything. Begin to fix the problem, test, make your commits, push your
 commits, then make a pull request. Mention an issue number in the
-pull request, but not the commit message. These practices allow the
+pull request, but not the commit message. These practices encourage the
 competition of ideas (Sugar Labs is a meritocracy).
 
 Modifying Activities
@@ -84,8 +84,8 @@ After modifying an activity, a new release may be needed.  Some activities have 
 
 * [ ] if there is a `po/*.pot` file, regenerate using `python setup.py genpot`, review the changes, and commit,
 
-* [ ] If the activity is on [weblate](weblate.sugarlabs.org), be sure to merged any open PRs raised
-from the [weblate-sync](https://wiki.sugarlabs.org/go/Service/Weblate) workflow. 
+* [ ] if the activity is on [weblate](weblate.sugarlabs.org), be sure to merged any open PRs raised
+from the [weblate-sync](https://wiki.sugarlabs.org/go/Service/Weblate) workflow,
 
 * [ ] update the README.md file if necessary,
 
@@ -103,25 +103,24 @@ from the [weblate-sync](https://wiki.sugarlabs.org/go/Service/Weblate) workflow.
 
 * [ ] rebase any other maintained branches or pull requests, such as
   those for past or future versions of Python, or past releases of
-  Fedora, Ubuntu or libraries.
+  Fedora, Ubuntu or libraries,
 
 * [ ] for Python 3 Activities, copy the bundle to `~activities-v4/bundles`, 
   remove any other old versions of the bundle from `~activities-v4/bundles`, and trigger
   a rebuild of the static site using `rebuild-aslo` command, verify if your bundle is
   visible on https://v4.activities.sugarlabs.org . For more information, it is
-  recommended to take a look at the   [Activities4 wiki page](https://wiki.sugarlabs.org/go/Service/activities4)
+  recommended to take a look at the   [Activities4 wiki page](https://wiki.sugarlabs.org/go/Service/activities4).
 
 
 Modifying Sugar
 ---------------
 
 Sugar repositories can be found in our [GitHub `sugarlabs`
-organization](https://github.com/sugarlabs).  Sugar desktop
-environment repositories are:
+organization](https://github.com/sugarlabs). Key repositories for the Sugar desktop environment include:
 
-* https://github.com/sugarlabs/sugar (the desktop shell);
-* https://github.com/sugarlabs/sugar-artwork (images, icons, themes);
-* https://github.com/sugarlabs/sugar-toolkit-gtk3 (graphical widget library); and,
+* https://github.com/sugarlabs/sugar (the desktop shell).
+* https://github.com/sugarlabs/sugar-artwork (images, icons, themes).
+* https://github.com/sugarlabs/sugar-toolkit-gtk3 (graphical widget library).
 * https://github.com/sugarlabs/sugar-datastore (journal backend).
 
 Workflow
@@ -129,7 +128,7 @@ Workflow
 
 ### Open an Issue
 
-We track issues in http://bugs.sugarlabs.org/ or in the GitHub Issues tab of repositories.
+We track issues in https://bugs.sugarlabs.org/ or in the GitHub Issues tab of repositories.
 
 An improvement to Sugar may start with an issue discussion, to build consensus and ensure that work isn't wasted.  An issue may be avoided for fixing bugs that are obvious to everyone or part of a project.
 
@@ -160,7 +159,7 @@ Create a branch per set of changes; e.g. to fix a problem or add a feature;
 git checkout -b BRANCH-NAME
 ```
 
-Your BRANCH-NAME can be anything, other than master.  The scope is your forked repository.  The branch name will be shown on pull-requests.
+Your BRANCH-NAME can be anything, other than master.  The scope is your forked repository.  The branch name will be shown on pull requests.
 
 ### Making commits
 
@@ -172,7 +171,7 @@ Change files, and commit.  Commit messages are kept by git, and are used later w
 4. when the problem was introduced by a previous commit, mention the hash;
 5. when the problem is in an issue or ticket, add "Fixes #1234";
 6. avoid mentioning GitHub or other pull-requests, as these are not kept in git;
-7. avoid mentioning any contest tasks or mentors; use pull-request comments instead; and
+7. avoid mentioning any contest tasks or mentors; use pull request comments instead; and
 8. use imperative mood, like "add foo", or "port to bar"; (if English is not your first language, see [imperative mood](https://en.wikipedia.org/wiki/Imperative_mood), [git documentation](https://git.kernel.org/pub/scm/git/git.git/tree/Documentation/SubmittingPatches#n133) and [blog post by Dan Clarke](https://www.danclarke.com/git-tense)).
 
 Make one or more commits and push the branch to your repository;
@@ -181,9 +180,9 @@ Make one or more commits and push the branch to your repository;
 git push origin BRANCH-NAME
 ```
 
-### Sending a pull-request
+### Sending a pull request
 
-Send a pull-request for your branch.
+Send a pull request for your branch.
 Navigate to your repository page in GitHub, switch to the branch you made, and then press the **Pull Request** button.
 
 When writing a pull-request message;
@@ -192,14 +191,14 @@ When writing a pull-request message;
 2. link to any relevant pull-requests, issues, or tickets; and
 3. link to any contest tasks, and name your @mentors to subscribe them.
 
-A review will happen in the pull-request, and a reviewer will either;
+A review will happen in the pull request, and a reviewer will either;
 
 1. merge, squash, or rebase your commits;
 2. merge your commits with their own changes;
 3. ask you to make changes; or
 4. close and reject your pull-request giving reasons.
 
-When they ask you for changes, you may have to change both files, commits or commit messages.
+When they ask you for changes, you may have to change both files, commits, or commit messages.
 
 When squashing commits to different files, use interactive rebase.
 
@@ -213,9 +212,9 @@ After resolving any conflicts, push the changes to the same branch;
 git push --force origin
 ```
 
-Then respond on the pull-request.
+Then respond on the pull request.
 
-### Keep your pull-request up to date
+### Keep your pull request up to date
 
 When there have been upstream commits while your pull-request was open, you should rebase your pull-request;
 
@@ -229,7 +228,7 @@ Then push the changes to the same branch;
 git push --force origin
 ```
 
-The pull-request will be updated.
+The pull request will be updated.
 
 ### Keep your fork up to date
 
@@ -243,11 +242,11 @@ git checkout BRANCH-NAME
 
 ### Review
 
-We encourage [testing](#testing) before merging a pull-request.
+We encourage [testing](#testing) before merging a pull request.
 
 So instead of merging directly with the "merge" button on GitHub, we may do a local merge, then test, then push.
 
-See [GitHub help on merging a pull-request](https://help.github.com/articles/merging-a-pull-request).
+See [GitHub help on merging a pull request](https://help.github.com/articles/merging-a-pull-request).
 
 The GitHub page for the pull-request will provide you the right commands to do the local merge, similar to the following.
 
@@ -268,7 +267,7 @@ git push origin master
 
 ### Close Issue
 
-Once your pull-request is merged, you should close any issue or ticket.  GitHub issues named as "Fixes" in a commit message may be automatically closed.
+Once your pull request is merged, you should close any issue or ticket.  GitHub issues named as "Fixes" in a commit message may be automatically closed.
 
 Be sure to thank everyone who helped you out along the way.
 
@@ -305,7 +304,7 @@ Guide for Reviewers
 
 ### Goals
 
-Goals for review are to;
+Goals for review are to:
 
 * detect trivial mistakes,
 
@@ -337,7 +336,7 @@ Goals for review are to;
 
 - sugar, sugar-toolkit, sugar-toolkit-gtk3, sugar-artwork, sugar-datastore, gst-plugins-espeak,
 
-- each of the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/Release/Modules#Fructose) activity set repositories,
+- each of the [Fructose](https://wiki.sugarlabs.org/go/Development_Team/Release/Modules#Fructose) activity set repositories.
 
 Frequently Asked Questions
 --------------------------
@@ -348,8 +347,8 @@ Make a local clone of your GitHub repository, use `git commit --amend` or the ot
 
 ### Error 403 on `git push`
 
-Most likely you have cloned someone else's repository, and you should
-instead fork their repository, clone your own repository, make your
+Most likely, you cloned someone else's repository. You should
+instead fork their repository, clone your own fork, make your
 changes, then push.  See [Getting error 403 while submitting
 PR](http://lists.sugarlabs.org/archive/sugar-devel/2017-March/053926.html)
 and [D. Joe's

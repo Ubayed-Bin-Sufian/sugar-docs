@@ -8,7 +8,7 @@ colors to the user colors.
 The sugariconify.py script is used to convert SVGs into the format
 required for Sugar icons, adding the necessary stroke and fill
 entities. This is a Python script, and as such requires Python to run.
-It will create Sugar-compatible SVG icons from an ```input.svg``` by
+It creates Sugar-compatible SVG icons from an ```input.svg``` by
 adding the appropriate stroke and fill entities. It can be used to
 convert a single icon or run over a batch of icons at one time.
 
@@ -18,8 +18,8 @@ For creating an SVG suitable for Sugar,
 see the tutorial on [Making Sugar
 Icons](http://wiki.sugarlabs.org/go/Development_Team/Almanac/Making_Icons).
 
-In some cases, you may desire to update a single icon, or a subset of
-the icons defined within a given SVG. To do so, pass a pattern to the
+In some cases, you may want to update a single icon or a subset of 
+icons within a given SVG. To do so, pass a pattern to the
 script with -p, and only those icons which match the pattern will be
 exported.
 
@@ -55,7 +55,7 @@ target SVG has more than two colors.
 
 ### Details
  
-Given a simple input SVG:
+Below is an example of a simple input SVG:
  
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -118,94 +118,90 @@ It is also possible to use SugarIconify in your own Python scripts.
 ## Methods
 
 #### #set_stroke_color():
-It is equivalent of -s on command line, it can be a hex value
-(e.g #FFFF00) or a rgb percent value such as rgb(31%, 28%, 56%).
+It is equivalent to ```-s``` on the command line. It can be a hex value
+(e.g #FFFF00) or an rgb percent value such as rgb(31%, 28%, 56%).
 
 ```
    icon.set_stroke_color('#FFFF00')
    icon.set_stroke_color('rgb(55%, 12%, 55%)')
 ```
 #### #set_fill_color():
-It is equivalent of -f on command line, it can be a hex value
-(e.g #FF0000) or a rgb percent value such as rgb(32%, 33%, 87%).
+It is equivalent to ```-f``` on the command line. It can be a hex value
+(e.g #FF0000) or an rgb percent value such as rgb(32%, 33%, 87%).
 
 ```
    icon.set_fill_color('#FFFFFF')
    icon.set_fill_color('rgb(55%, 12%, 55%)')
 ```
 #### #set_confirm_guess():
-It is equivalent of -g on command line, so it can automatically
-accept guesses for stroke and fill entities, True or False are
-the only accepted values.
+It is equivalent to ```-g``` on the command line; automatically
+accepts guesses for stroke and fill entities. It accepts only True or False values.
 
 ```
    icon.set_confirm_guess(True)
 ```
 #### #set_use_default_colors():
-It is equivalent of -c on command line, uses default stroke and
-fill entities (#666666, #FFFFFF) for sugar iconify, True or False
-are the only accepted values.
+It is equivalent to ```-c``` on the command line; uses default stroke and
+fill entities (#666666, #FFFFFF) for sugar iconify. It accepts only True or False values.
 
 ```
    icon.set_use_default_colors(True)
 ```
 
 #### #set_overwrite_input():
-It is equivalent of -o on command line, overrides input file in
-place, True or False are the only accepted values.
+It is equivalent to ```-o``` on the command line; overwrites input file in
+place. It accepts only True or False values.
 
 ```
    icon.set_overwrite_input(True)
 ```
 
 #### #set_output_path():
-It is equivalent of -d on command line, sets the output path where
-the iconified file will be placed, string values are accepted.
+It is equivalent to ```-d``` on the command line; sets the output path for the iconified file. It accepts only string values.
 
 ```
    icon.set_output_path('/home/user/Desktop')
 ```
 
 #### #set_use_entity():
-It is  equivalent of -e on command line, do not insert entities for
-strokes and fills, True or False are the only accepted values.
+It is equivalent to ```-e``` on the command line; prevents insertion of stroke and fill entities. It accepts only True or False values.
 
 ```
    icon.set_use_entity(True)
 ```
 
 #### #set_verbose():
-It is equivalent of -v on command line, outputs information messages
-on console, True or False are the only accepted values.
+It is equivalent to ```-v``` on the command line; outputs informational messages
+to the console. It accepts only True or False values.
 
 ```
    icon.set_verbose(True)
 ```
 #### #set_pattern():
-It is equivalent of -p on command line, only export icons whose name
-contains pattern, string values are accepted.
+It is equivalent to ```-p``` on the command line; exports only icons whose names
+contain a specific pattern. It accepts only string values.
 
 ```
    icon.set_pattern('pattern')
 ```
 #### #set_multiple():
-It is  equivalent of -m on command line, export top level groups as 
-separate icons, True or False are the only accepted values.
+It is equivalent to ```-m``` on the command line; exports top-level groups as 
+separate icons. It accepts only True or False values.
 
 ```
    icon.set_multiple(True)
 ```
-#### #set_output_examples():It is equivalent of -x on command line,
-create HTML preview files, for icon validation, True or False are
-the only accepted values.
+#### #set_output_examples():
+It is equivalent to ```-x``` on the command line;
+creates HTML preview files for icon validation. It accepts only True or False values.
 
 ```
    icon.set_output_examples(True)
 ```
 
 #### #set_use_iso_strokes():
-It is equivalent of -i on command line, insert "isolated stroke"
-entities, True or False are the only accepted values.
+It is equivalent to ```-i``` on the command line; inserts 'isolated stroke'
+entities. It accepts only True or False values.
 
 ```
    icon.set_use_iso_strokes(True)
@@ -219,4 +215,3 @@ entities, True or False are the only accepted values.
    icon.set_use_default_colors(True)
    icon.iconify('/home/user/Desktop/image.svg')
 ```
-----
